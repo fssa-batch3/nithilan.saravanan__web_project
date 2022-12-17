@@ -42,6 +42,10 @@ form input {
     height: 30px;
     width: 20px;
 }
+
+.page{
+font-family: fantasy;
+}
 .search i{
     background-color: white;
     position: relative;
@@ -84,6 +88,7 @@ form input {
 /* body */
 
 
+
 .content1 {
     display: flex;
     justify-content: space-evenly;
@@ -119,7 +124,7 @@ form input {
     padding: 20px 0px;
     color: black;
 
-}
+} 
  
 
 .image h1 {
