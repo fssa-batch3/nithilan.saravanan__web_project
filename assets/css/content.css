@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:burlywood;
+    /* background-color:burlywood; */
 
 }
 
@@ -103,9 +103,10 @@ font-family: fantasy;
 
  .content1{
     display: flex;
-    border: 2px solid black;
+    justify-content: space-around;
+    /* border: 2px solid black; */
     border-radius: 15px;
-    background-color:rgb(190, 185, 185) ;
+    /* background-color:rgb(190, 185, 185) ; */
     color: black;
     margin-bottom: 20px;
     padding: 20px 0px;
@@ -134,11 +135,23 @@ font-family: fantasy;
     color: red;
 
 }
+.image{
+    width: 390px;
+    height: 480px;
+    border-radius: 8px;
+    box-shadow: 3px -7px 42px -6px rgba(0,0,0,0.75);
+
+
+
+
+}
 
 .image img {
     margin: 20px;
     border-radius: 10px;
     transition: 0.5s;
+    width: 350px;
+    height: 350px;
 }
 
 .image img:hover {

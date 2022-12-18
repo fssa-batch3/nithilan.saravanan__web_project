@@ -185,7 +185,17 @@ form input {
     color: white;
     text-decoration: none;
     font-family: fantasy;
+    
 
+}
+#add a{
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+    position: relative;
+    top: 80px;
+    border: 5px solid wheat;
+    border-radius: 5px;
 }
 
 

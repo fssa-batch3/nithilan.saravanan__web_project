@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(4, 8, 30, 0.5), rgb(4, 8, 30, 0.5)), url(../images/header-bgm.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img {
+    margin-left: 50px;
+    padding-bottom: 20px;
+    width: 40px;
+}
+
+form input {
+    /* padding: 30px; */
+    border-radius: 13px;
+    margin-top: 40px;
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    height: 40px;
+}
+
+#search {
+    position: relative;
+    top: 10px;
+    /* left: -193px; */
+    right: 193px;
+    height: 30px;
+    width: 20px;
+}
+
+.search i {
+    background-color: white;
+    position: relative;
+    top: 1px;
+    left: 24px;
+}
+
+.row ul {
+    display: flex;
+}
+
+.row ul li {
+    list-style: none;
+}
+
+.search1 img {
+    position: relative;
+
+}
+
+.row ul li a {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.row ul li a:hover {
+    background-color: #FC766AFF;
+    border-radius: 10px;
+}
+
+.row {
+    margin-top: 50px;
+    margin-right: 30px;
+
+}
+
+/* body */
+
+.bg{
+    background-image: linear-gradient(rgb(4, 8, 8, 0.5), rgb(4, 8, 0.9, 0.5)),url(../images/bg-for-add.jpg);
+    background-position: center;
+    height: 1000px;
+    background-size: cover;
+    font-size: 20px;
+
+}
+.form{
+    display: flex;
+    border: 5px solid rgb(249, 162, 162);
+    border-radius: 30px;
+    width: 600px;
+    position: relative;
+    left: 450px;
+    top: 240px;
+    background-color:rgb(247, 246, 244) ;
+    padding: 20px;
+
+
+    
+}
+.form h1{
+    /* text-align: center; */
+}
+.input{
+    position: relative;
+    left: 20px;
+    top: 1px;
+}
+#submit{
+    background-color: rgb(35, 181, 35);
+    color: rgb(249, 246, 246);
+    width: 100px;
+    position: relative;
+    top: 10px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+#video{
+    position: relative;
+    bottom: 35px;
+    
+}
+#name{
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+
+}
+
+#e-mail{
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+#tel{
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+#birdname{
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+#add{
+    border-radius: 5px;
+    width: 470px;
+    position: relative;
+    bottom: 35px;
+
+}
+#image{
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+    height: 20px;
+}
+
+
+
+
+
+/* footer */
+.footer {
+    background: #000;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+   
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
