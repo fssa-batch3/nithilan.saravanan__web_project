@@ -92,6 +92,12 @@ form input {
     font-size: 20px;
 
 }
+h1 span{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
 .form{
     display: flex;
     border: 5px solid rgb(249, 162, 162);
@@ -107,7 +113,7 @@ form input {
     
 }
 .form h1{
-    /* text-align: center; */
+     text-align: center; 
 }
 .input{
     position: relative;
