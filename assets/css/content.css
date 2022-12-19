@@ -127,12 +127,18 @@ font-family: fantasy;
 
 .image h1 {
     margin-left: 20px;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    width: 300px;
+    text-align: center;
+
 }
 
 .image h1:hover {
     position: relative;
     bottom: 5px;
-    color: red;
+    /* color:rgb(50, 39, 39); */
+    text-shadow: -1px -1px 10px black;
 
 }
 .image{
