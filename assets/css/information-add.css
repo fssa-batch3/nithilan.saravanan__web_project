@@ -95,18 +95,19 @@ form input {
 h1 span{
     text-align: center;
     position: relative;
-    top: 250px;
-    left: 100px;
+    top: 200px;
+    left: 550px;
+    color: rgb(207, 199, 199);
 }
 .form{
     display: flex;
-    border: 5px solid rgb(249, 162, 162);
+    border: 5px solid rgb(250, 247, 247);
     border-radius: 30px;
     width: 600px;
     position: relative;
     left: 450px;
     top: 240px;
-    background-color:rgb(247, 246, 244) ;
+    background-color:rgba(255,255,255,0.3) ;
     padding: 20px;
 
 
