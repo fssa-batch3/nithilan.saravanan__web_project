@@ -7,7 +7,7 @@ github page: https://github.com/nithilans/Birds-Information
 
 webpage link: https://nithilans.github.io/Birds-Information/
 
-Project document: https://docs.google.com/document/d/1rrbpaijDozJcm3f2zRpGyki-Jva-qEeUzOZRXUq-pNw/edit?usp=sharing
+Project document:https://docs.google.com/document/d/1WdV9riUfugFbKxWEuTIrph0F0jAf1mTQpwRyvqGzZrQ/edit?usp=sharing
 
 Market research: https://docs.google.com/document/d/1WSCn9s0SWpmGs9Il9zXJNbZG65nKDZOVbfZUTYEPaF0/edit?usp=sharing
 
